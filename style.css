@@ -1,0 +1,470 @@
+body {
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+
+}
+
+/****************************************************************************************************/
+/*****************************header*******************************/
+
+/***nav bar ********/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 10%;
+
+}
+
+li {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+    color: #ababab;
+}
+
+a.current {
+    color: #00b39b;
+}
+
+a:hover {
+    color: #00b39b;
+}
+
+.drop-down-list {
+    display: none;
+    position: absolute;
+}
+
+.drop-down:hover .drop-down-list {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px gray;
+
+}
+
+.drop-down-list a {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+
+}
+
+
+/***********************main ************************************************************
+
+/*****  first BLOCK  ******************************************************/
+
+.mission {
+    text-align: center;
+}
+
+.mission h1 {
+    color: #00b39b;
+}
+
+.offer {
+    display: flex;
+    margin: auto auto auto auto;
+    width: 85%;
+    line-height: 1.75;
+    /* line-height prperty define the distance interlines*/
+
+}
+
+
+/*****  **************SECOND  BLOCK** ******************************/
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto auto auto;
+}
+
+/******* patient service **********/
+.patient-services {
+    width: 30%;
+    background: #00ccb1;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.patient-services h1 {
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0
+}
+
+.patient-services h2 {
+    font-weight: 100;
+    line-height: 1.2;
+    color: #fff;
+}
+
+select {
+    margin-bottom: 35px;
+    width: 50%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 800;
+    color: #fff;
+
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    color: #333;
+}
+
+/********** doctors service*********/
+.doctor-services {
+    width: 30%;
+    background: #3d83df;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+}
+
+.doctor-services h1 {
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0
+}
+
+.doctor-services h2 {
+    font-weight: 100;
+    line-height: 1.2;
+    color: #fff;
+}
+
+/**********clinics service *********/
+.clinics-services {
+    width: 30%;
+    background: #1b2734;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+}
+
+.clinics-services h1 {
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0
+}
+
+.clinics-services h2 {
+    font-weight: 100;
+    line-height: 1.2;
+    color: #fff;
+}
+
+/************THIRD BLOCK********************************************/
+.achievements {
+    background: #e5faf8;
+    margin: 100px auto auto auto;
+    display: flex;
+    text-align: center;
+}
+
+.headlines-achievements {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.headlines-achievements h1 {
+    padding-top: 20px;
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 300;
+
+}
+
+.headlines-achievements p {
+    padding-bottom: 20px;
+    padding-left: 100px;
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+
+}
+
+.headlines-achievements img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/**********************************/
+.details-achievements {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.opportunity {
+    display: flex;
+    justify-content: space-around;
+}
+
+.leader {
+    margin-top: 20px;
+    width: 25%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: .8125em;
+}
+
+.leader h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+
+.oppointments {
+    margin-top: 20px;
+    width: 25%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: .8125em;
+}
+
+.oppointments h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+
+
+
+.strength {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.patients {
+    margin-top: 20px;
+    width: 25%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: .8125em;
+}
+
+.patients h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+}
+
+.doctors {
+    margin-top: 20px;
+    width: 25%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    font-size: .8125em;
+
+}
+
+.doctors h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+
+}
+
+
+/************************** FORTH BLOCK *******************************/
+.quote {
+    max-width: 460px;
+    margin: 50px auto auto auto;
+    font-size: .875em;
+    text-align: center;
+}
+
+.quote h1 {
+    font-size: 30px;
+    color: #00b39b;
+}
+
+/**************************** FIFTH BLOCK*******************************/
+
+.countries-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px 50px 100px;
+    justify-content: space-evenly;
+
+}
+
+/*****Warsaw*****/
+.Warsaw {
+    margin-bottom: 30px;
+}
+
+.Warsaw:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/*******Barcelone********/
+.barcelone {
+    margin-bottom: 30px;
+
+}
+
+.barcelone:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+
+/***********Munich************/
+.Munich {
+    margin-bottom: 30px;
+
+}
+
+.Munich:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/*************Istanbul*********/
+.Istanbul {
+    margin-bottom: 30px;
+
+}
+
+.Istanbul:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/**************Rome**************/
+.Rome {
+    margin-bottom: 30px;
+
+}
+
+.Rome:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/***************Mexico****************/
+.Mexico {
+    margin-bottom: 30px;
+
+}
+
+.Mexico:hover {
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+/***************************************/
+.open {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.open a {
+    text-decoration: none;
+    color: #747474;
+
+}
+
+.open button {
+    padding: 15px 32px;
+    border-radius: 4px;
+    background-color: #3d83df;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition-duration: 1.5s;
+}
+
+.open button:hover {
+    background-color: #fff;
+    color: #3d83df;
+    border: 1px solid #3d83df;
+}
+
+/******************************SIXTH BLOCK***********************************/
+.outro {
+    max-width: 520px;
+    margin: 70px auto 30px auto;
+    font-size: .875em;
+    text-align: center;
+
+}
+
+.outro h1 {
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+}
+
+input {
+    padding: 15px 32px;
+    border-radius: 4px;
+    background-color: #3d83df;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+/**************************************************************************************************
+/*********footer*****/
+footer {
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.locations a {
+    text-decoration: none;
+    color: #3d83df;
+    font-size: 13px;
+}
+
+.locations a:hover {
+    text-decoration: underline;
+}
