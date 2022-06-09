@@ -180,6 +180,7 @@ option {
     margin: 100px auto auto auto;
     display: flex;
     text-align: center;
+    align-items: center;
 }
 
 .headlines-achievements {
